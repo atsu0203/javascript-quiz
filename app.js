@@ -1,25 +1,21 @@
 const quiz = [
   {
-    question: '現在のスキルエンジン株式会社のテナントビル名は？',
-    answers: [ 'SKビル', 'SSKビル', 'SKKビル', 'SSKKビル','SkillEngineビル'],
-    correct: 'SKKビル'
+    question: '現在の〇〇株式会社のテナントビル名は？',
+    answers: [ 'Aビル', 'Bビル', 'Cビル', 'Dビル','Eビル'],
+    correct: 'Aビル'
   },{
-    question: '茅場町オフィスに移転する前にスキルエンジン株式会社があった場所はどこ？',
+    question: 'オフィス移転する前に〇〇株式会社があった場所はどこ？',
     answers: [ '渋谷', '新宿', '日本橋', '銀座', '那覇'],
     correct: '銀座'
   },{
-    question: 'スキルエンジン株式会社の運営するITスクールは?',
-    answers: [ 'Skill Camp', 'SkillAcademy', 'SKILL INTO CODE', 'SKK WEBCAMP','侍スキル塾'],
-    correct: 'Skill Camp'
+    question: '〇〇株式会社の運営するITスクールは?',
+    answers: [ 'A Camp', 'B Academy', 'C CODE', 'D WEBCAMP','E スキル塾'],
+    correct: 'A Camp'
   },{
-    question: '現在のスキルエンジン株式会社の1階に入っている中華料理屋の名前は？',
-    answers: [ '海老仙', '紫金閣', '味園酒家', 'チャオチャオ','王将'],
-    correct: '海老仙'
-  },{
-    question: 'その海老仙の食べログの評価は星いくつ？',
-    answers: [ '1.8', '2.5', '3.2', '3.6','4.0'],
-    correct: '3.2'
-  }
+    question: '現在の〇〇株式会社の1階に入っている中華料理屋の名前は？',
+    answers: [ '中華一番', 'チャオチャオ','王将'],
+    correct: '中華一番'
+  },
 ];
 
 const $window = window;
